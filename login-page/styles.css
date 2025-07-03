@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(90deg, rgba(164, 116, 81, 1.000) 0%, rgba(156, 152, 129, 1.000) 16.667%, rgba(115, 160, 157, 1.000) 33.333%, rgba(59, 137, 154, 1.000) 50%, rgba(9, 91, 121, 1.000) 66.667%, rgba(0, 40, 71, 1.000) 83.333%, rgba(0, 1, 22, 1.000) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  height: 40%;
+  width: 40%;
+  border-radius: 2%;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80%;
+  width: 80%;
+}
+
+#login-heading h1 {
+  font-size: 50px;
+  font-weight: 800;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.input-fields {
+  margin: 1rem;
+  padding: 1rem;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.input-credentials {
+  width: 90%;
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.input-credentials:focus {
+  border-color: #007BFF !important;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25) !important;
+  background-color: #f0f8ff;
+  outline: none;
+}
+
+.extra-fields {
+  margin: 0.5rem 0;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.remember-me-fields {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+#remember-me-label {
+  font-size: 1rem;
+}
+
+.forgot-password {
+  font-size: 1rem;
+  text-decoration: none;
+  color: #161717;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+.button-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.login-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #007BFF;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}
+
